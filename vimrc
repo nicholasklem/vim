@@ -4,6 +4,25 @@ syntax enable
 set autoindent
 set smartindent
 set cindent
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
+" size of a hard tabstop
+set tabstop=4
+
+" size of an "indent"
+set shiftwidth=4
+
+" a combination of spaces and tabs are used to simulate tab stops at a width
+" other than the (hard)tabstop
+set softtabstop=4
+
+" make "tab" insert indents instead of tabs at the beginning of a line
+set smarttab
+
+" always uses spaces instead of tab characters
+set expandtab
 
 colorscheme slate
 " colorscheme adaryn
@@ -55,7 +74,7 @@ au Syntax * RainbowParenthesesLoadBraces
 Bundle 'rodjek/vim-puppet'
 Bundle 'godlygeek/tabular'
 Bundle 'honza/vim-snippets'
-Bundle 'tomtom/tlib_vim.git'
-Bundle 'MarcWeber/vim-addon-mw-utils.git'
-Bundle 'garbas/vim-snipmate'
+Bundle 'tomtom/tlib_vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
+Bundle 'garbas/vim-snipmate'
