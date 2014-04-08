@@ -58,4 +58,4 @@ Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tlib_vim.git'
 Bundle 'MarcWeber/vim-addon-mw-utils.git'
 Bundle 'garbas/vim-snipmate'
-
+Bundle 'ervandew/supertab'
