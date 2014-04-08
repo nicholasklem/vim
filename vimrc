@@ -7,6 +7,7 @@ set cindent
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+set mouse=a
 
 " size of a hard tabstop
 set tabstop=4
