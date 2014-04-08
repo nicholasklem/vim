@@ -73,6 +73,7 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 Bundle 'rodjek/vim-puppet'
+Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'godlygeek/tabular'
 Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tlib_vim'
