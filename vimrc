@@ -7,7 +7,7 @@ set cindent
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
-set mouse=a
+" set mouse=a
 
 " size of a hard tabstop
 set tabstop=4
@@ -80,3 +80,5 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
 Bundle 'garbas/vim-snipmate'
+Bundle 'pld-linux/vim-syntax-vcl'
+
