@@ -27,6 +27,7 @@ set expandtab
 
 colorscheme slate
 " colorscheme adaryn
+" colorscheme PaperColor
 set background=dark
 
 set modeline
@@ -81,4 +82,3 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
 Bundle 'garbas/vim-snipmate'
 Bundle 'pld-linux/vim-syntax-vcl'
-
