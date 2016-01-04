@@ -56,6 +56,12 @@ set laststatus=2
 " " Format the status line
 " set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
+" highlight column 80
+if (exists('+colorcolumn'))
+    set colorcolumn=80
+    highlight ColorColumn ctermbg=9
+endif
+
 " vundle
 filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
@@ -73,7 +79,6 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 Bundle 'rodjek/vim-puppet'
-Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'godlygeek/tabular'
 Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tlib_vim'
@@ -81,4 +86,5 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
 Bundle 'garbas/vim-snipmate'
 Bundle 'pld-linux/vim-syntax-vcl'
+Bundle 'bronson/vim-trailing-whitespace'
 
