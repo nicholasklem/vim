@@ -27,7 +27,6 @@ set expandtab
 
 colorscheme slate
 " colorscheme adaryn
-set background=dark
 
 set modeline
 set modelines=1
@@ -59,7 +58,7 @@ set laststatus=2
 " highlight column 80
 if (exists('+colorcolumn'))
     set colorcolumn=80
-    highlight ColorColumn ctermbg=9
+    highlight ColorColumn ctermbg=8
 endif
 
 " vundle
@@ -78,7 +77,7 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-Bundle 'rodjek/vim-puppet'
+" Bundle 'rodjek/vim-puppet'
 Bundle 'godlygeek/tabular'
 Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tlib_vim'
@@ -87,4 +86,3 @@ Bundle 'ervandew/supertab'
 Bundle 'garbas/vim-snipmate'
 Bundle 'pld-linux/vim-syntax-vcl'
 Bundle 'bronson/vim-trailing-whitespace'
-
