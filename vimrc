@@ -9,6 +9,10 @@ set pastetoggle=<F2>
 set showmode
 " set mouse=a
 
+" reindent, and return to where you where
+" http://vim.wikia.com/wiki/Fix_indentation
+map <F7> mzgg=G`z
+
 " size of a hard tabstop
 set tabstop=4
 
