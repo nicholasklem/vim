@@ -1,4 +1,5 @@
 " Enable syntax highlighting
+filetype plugin indent on
 syntax enable
 
 set autoindent
@@ -24,6 +25,8 @@ set smarttab
 
 " always uses spaces instead of tab characters
 set expandtab
+
+
 
 colorscheme slate
 " colorscheme adaryn
