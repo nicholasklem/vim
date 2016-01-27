@@ -28,7 +28,7 @@ set softtabstop=4
 set smarttab
 
 " always uses spaces instead of tab characters
-set expandtab
+" NOT AT STARTSIDEN... set expandtab
 
 
 
