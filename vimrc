@@ -2,9 +2,10 @@
 filetype plugin indent on
 syntax enable
 
-set autoindent
+"set autoindent
 set smartindent
-set cindent
+" set cindent
+"filetype indent on
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
@@ -15,22 +16,20 @@ set showmode
 map <F7> mzgg=G`z
 
 " size of a hard tabstop
-set tabstop=4
+set tabstop=2
 
 " size of an "indent"
-set shiftwidth=4
+set shiftwidth=2
 
 " a combination of spaces and tabs are used to simulate tab stops at a width
 " other than the (hard)tabstop
-set softtabstop=4
+set softtabstop=2
 
 " make "tab" insert indents instead of tabs at the beginning of a line
 set smarttab
 
 " always uses spaces instead of tab characters
-" NOT AT STARTSIDEN... set expandtab
-
-
+set expandtab
 
 colorscheme slate
 " colorscheme adaryn
@@ -93,5 +92,5 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
 Bundle 'garbas/vim-snipmate'
-Bundle 'pld-linux/vim-syntax-vcl'
+Bundle 'smerrill/vcl-vim-plugin'
 Bundle 'bronson/vim-trailing-whitespace'
