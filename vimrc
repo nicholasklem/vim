@@ -86,6 +86,7 @@ Bundle 'godlygeek/tabular'
 " Bundle 'garbas/vim-snipmate'
 Bundle 'smerrill/vcl-vim-plugin'
 Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'bracki/vim-prometheus'
 
 filetype plugin indent on     " required!
 
