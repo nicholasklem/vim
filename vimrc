@@ -45,7 +45,7 @@ set showcmd
 set nocompatible
 
 " search case insensitive
-set ignorecase
+" set ignorecase
 
 " incremental search
 set incsearch
@@ -87,7 +87,22 @@ Bundle 'godlygeek/tabular'
 Bundle 'smerrill/vcl-vim-plugin'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'bracki/vim-prometheus'
+Bundle 'hashivim/vim-terraform'
+Bundle 'Yggdroot/indentLine'
+Bundle 'pedrohdz/vim-yaml-folds'
+Bundle 'dense-analysis/ale'
+
+
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+set foldlevelstart=20
+
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+let g:ale_lint_on_text_changed = 'never'
 
 filetype plugin indent on     " required!
 
-
+set undofile                 "turn on the feature
+set undodir=$HOME/.vim/undo  "directory where the undo files will be stored

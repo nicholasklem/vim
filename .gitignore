@@ -1,2 +1,4 @@
 ~/.vim/bundle/*
 bundle/*
+~/.vim/undo
+.netrwhist
