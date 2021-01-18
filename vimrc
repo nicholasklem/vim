@@ -90,7 +90,7 @@ Bundle 'bracki/vim-prometheus'
 Bundle 'hashivim/vim-terraform'
 Bundle 'Yggdroot/indentLine'
 Bundle 'pedrohdz/vim-yaml-folds'
-Bundle 'dense-analysis/ale'
+" Bundle 'dense-analysis/ale'
 
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
