@@ -88,8 +88,16 @@ Bundle 'smerrill/vcl-vim-plugin'
 Bundle 'bronson/vim-trailing-whitespace'
 Bundle 'bracki/vim-prometheus'
 Bundle 'hashivim/vim-terraform'
-Bundle 'Yggdroot/indentLine'
 Bundle 'pedrohdz/vim-yaml-folds'
+Bundle 'fatih/vim-go'
+"Bundle 'arnar/vim-matchopen'
+
+" https://vi.stackexchange.com/a/24396
+"Bundle 'Yggdroot/indentLine'
+"let g:vim_json_syntax_conceal = 0
+"let g:vim_markdown_conceal = 0
+"let g:vim_markdown_conceal_code_blocks = 0
+
 " Bundle 'dense-analysis/ale'
 
 
@@ -97,10 +105,10 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 set foldlevelstart=20
 
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = '⚠'
-let g:ale_lint_on_text_changed = 'never'
+"let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+"let g:ale_sign_error = '✘'
+"let g:ale_sign_warning = '⚠'
+"let g:ale_lint_on_text_changed = 'never'
 
 filetype plugin indent on     " required!
 

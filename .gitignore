@@ -2,3 +2,4 @@
 bundle/*
 ~/.vim/undo
 .netrwhist
+undo
